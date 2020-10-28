@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/myportfolio/static/css/main.fdf28208.chunk.css",
+    "main.js": "/myportfolio/static/js/main.33f2ccfd.chunk.js",
+    "main.js.map": "/myportfolio/static/js/main.33f2ccfd.chunk.js.map",
+    "runtime-main.js": "/myportfolio/static/js/runtime-main.b5f0a273.js",
+    "runtime-main.js.map": "/myportfolio/static/js/runtime-main.b5f0a273.js.map",
+    "static/js/2.91f34e12.chunk.js": "/myportfolio/static/js/2.91f34e12.chunk.js",
+    "static/js/2.91f34e12.chunk.js.map": "/myportfolio/static/js/2.91f34e12.chunk.js.map",
+    "index.html": "/myportfolio/index.html",
+    "precache-manifest.87b8b1bbce10538a9ef9ac0b1ec9aaa9.js": "/myportfolio/precache-manifest.87b8b1bbce10538a9ef9ac0b1ec9aaa9.js",
+    "service-worker.js": "/myportfolio/service-worker.js",
+    "static/css/main.fdf28208.chunk.css.map": "/myportfolio/static/css/main.fdf28208.chunk.css.map",
+    "static/js/2.91f34e12.chunk.js.LICENSE.txt": "/myportfolio/static/js/2.91f34e12.chunk.js.LICENSE.txt",
+    "static/media/graduation.jpg": "/myportfolio/static/media/graduation.b2317448.jpg",
+    "static/media/image.jpg": "/myportfolio/static/media/image.76386815.jpg",
+    "static/media/linkdln.png": "/myportfolio/static/media/linkdln.2abdf5d0.png",
+    "static/media/mail.png": "/myportfolio/static/media/mail.71f3d9c1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b5f0a273.js",
+    "static/js/2.91f34e12.chunk.js",
+    "static/css/main.fdf28208.chunk.css",
+    "static/js/main.33f2ccfd.chunk.js"
+  ]
+}
