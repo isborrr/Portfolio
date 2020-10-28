@@ -1,5 +1,8 @@
+/* CSS for APP */
 .App {
   text-align: center;
+width: 100%;
+height: 100%;
 }
 
 .App-logo {
@@ -15,15 +18,82 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgba(255, 255, 255, 0.972);
+}
+.niceFont{
+  margin: 1em;
+}
+.App-header > h4{
+    margin: 1rem;
+    padding: 0.5rem;
+    background-color:black;
+    border-radius: 10%;
+}
+.profilePicture{
+background-color: #282c34 ;
+position: fixed;
+width: 100%;
+top: 0;
+z-index: 20;
+}
+.myMedia{
+opacity: 79%;
+width: 80px;
+height: 80px;
+border-radius: 50%;
+margin-bottom: 20px;
+border-style: solid;
+border-color: #1d3972;
+border-width: 7px;
+}
+.toFlex{
+  display: flex;
+}
+.vis > span{
+font-size: 15px;
+font-weight: bold;
+border-radius: 30%;
+display: inline-block;
+padding: .25em .4em;
+background-color: #000000;
+line-height: 1;
+margin-top: 25px;
+margin-left: 7px;
+ }
+.toFlex > .vis{
+   visibility: hidden;
+}
+.toFlex:hover > .vis {
+  visibility: visible;
 }
 
+.myMedia:hover {
+  opacity: 100%;
+  width: 90px;
+  height: 90px;
+  border-color: #0400ff;
+  box-shadow: 15px 10px 5px 5px #888888;
+}
+.myMedia:hover  span{
+    visibility: hidden;
+}
+.myAccount{
+  position: absolute;
+    margin-top: 600px;
+    display: grid;
+    margin-left: -1000px;
+}
+.logo{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border:solid;
+}
 .App-link {
   color: #61dafb;
 }
@@ -36,3 +106,93 @@
     transform: rotate(360deg);
   }
 }
+                                  /* CSS for Praject */
+.container{
+  
+    margin-top: 19rem;
+}
+.info{
+  background-color: rgb(223, 219, 219);
+    margin: auto;
+    width: 85%;
+    border: 5px solid #070706;
+    border-radius: 25px;
+    box-shadow: 10px 10px rgb(129, 127, 127);
+    padding: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.pic{
+  width: 700px;
+  height:700px;
+}
+                                  /* CSS for Contact */
+.contact{
+      display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+/* CSS for About  */
+.intro{
+    background-color: rgb(223, 219, 219);
+    margin: auto;
+    width: 60%;
+    border: 5px solid #070706;
+    border-radius: 25px;
+    box-shadow: 10px 10px rgb(129, 127, 127);
+    padding: 5px;
+    margin-top: 30px;
+}
+.intro >p{
+  margin: 1em;
+}
+.leftdiv{
+    background-color: rgb(223, 219, 219);
+    margin: auto;
+    width: 80%;
+    border: 5px solid #000000;
+    border-radius: 25px;
+}
+.tapMargin{
+  margin-top: 1em;
+}
+.education{
+  font-size: 2em;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+li{
+    margin: 0 auto;
+    width: fit-content;
+}
+.progr_language{
+   font-size: 2em;
+}
+.goal{
+      background-color: rgb(223, 219, 219);
+    margin: auto;
+    width: 50%;
+    border: 5px solid #000000;
+    border-radius: 25px;
+    padding: 10px;
+    margin-top: 30px;
+    text-align: center;
+}
+                                  /* CSS for profile */
+
+
+table {
+width: 50%;
+border-collapse: collapse;
+
+}
+table td {
+  border: 1px solid black;
+}
+
